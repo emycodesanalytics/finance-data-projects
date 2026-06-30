@@ -45,4 +45,12 @@ To evaluate and compare the risk-return profiles of these equities, assess their
 ## Conclusion
 DANGCEM demonstrated superior risk-adjusted performance over the 5-year period. The low correlation between DANGCEM and the banking stocks (GTCO & ZENITHBANK) suggests that a diversified portfolio combining Industrial Goods and Financial Services stocks could offer better risk management in the Nigerian market.
 
+---
+
+**Connect with me:**
+
+- GitHub: [@emycodesanalytics](https://github.com/emycodesanalytics)
+- LinkedIn: [Olamide Emmanuel Ogundare](https://www.linkedin.com/in/olamide-emmanuel-ogundare/)  
+- Twitter/X: [@emycodes](https://x.com/emycodes)
+
 **Last Updated:** June 30, 2026
