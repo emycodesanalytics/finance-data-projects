@@ -40,4 +40,12 @@ To build practical, production-oriented skills in financial data analysis and de
 
 **Status**: In active development (Private until June/July 2026)
 
-Last updated: June 29, 2026
+---
+
+**Connect with me:**
+
+- GitHub: [@emycodesanalytics](https://github.com/emycodesanalytics)
+- LinkedIn: [Olamide Emmanuel Ogundare](https://www.linkedin.com/in/olamide-emmanuel-ogundare/)  
+- Twitter/X: [@emycodes](https://x.com/emycodes)
+
+**Last Updated:** June 30, 2026
