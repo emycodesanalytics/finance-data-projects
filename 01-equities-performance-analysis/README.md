@@ -8,7 +8,7 @@ To evaluate and compare the risk-return profiles of these equities using various
 ## Dataset
 - Source: Investing.com (daily closing prices)
 - Time Period: June 2021 – June 2026
-- Stocks: DANGCEM (Dangote Cement Plc - Industrial Goods sector), GTCO (Guaranty Trust Holding Company Plc) and ZENITHBANK (Zenith Bank Plc - Financial Services sector)
+- Stocks: **DANGCEM** (Dangote Cement Plc - Industrial Goods sector), **GTCO** (Guaranty Trust Holding Company Plc) and **ZENITHBANK** (Zenith Bank Plc - Financial Services sector)
 
 ## Key Analyses Performed
 - Data loading, cleaning and preprocessing
@@ -23,12 +23,12 @@ To evaluate and compare the risk-return profiles of these equities using various
 
 **Performance Summary**
 - **DANGCEM** demonstrated the strongest risk-adjusted performance with competitive returns and the **lowest volatility** among the three stocks, resulting in the **highest Sharpe Ratio**.
-- **ZENITHBANK** delivered similar returns to DANGCEM but carried higher volatility, while
+- **ZENITHBANK** delivered similar returns to **DANGCEM** but carried higher volatility, while
 - **GTCO** recorded the lowest returns among the three with moderate volatility.
 
 **Similarity and Diversification**
-- ZENITHBANK and GTCO (both from the Financial Services sector) exhibited **moderate similarity** in their return patterns (Cosine Similarity ≈ 0.563).
-- DANGCEM showed **very low similarity** with both banking stocks (Cosine Similarity < 0.07), indicating strong diversification potential when combined with banking stocks.
+- **ZENITHBANK** and **GTCO** (both from the Financial Services sector) exhibited **moderate similarity** in their return patterns (Cosine Similarity ≈ 0.563).
+- **DANGCEM** showed **very low similarity** with both banking stocks (Cosine Similarity < 0.07), indicating strong diversification potential when combined with banking stocks.
 
 **Distribution Characteristics**
 - All three stocks displayed **negative skewness**, suggesting a higher likelihood of extreme negative returns.
@@ -43,10 +43,10 @@ To evaluate and compare the risk-return profiles of these equities using various
 2. Open [`equities_performance_analysis.ipynb`](./notebooks/equities_performance_analysis.ipynb)
 3. Run the cells sequentially
 
-All generated charts have been exported as PNG files into the `outputs/` folder.
+All generated charts have been exported as PNG files into the [`outputs/`](./outputs/) folder.
 
 ## Conclusion
-DANGCEM demonstrated superior risk-adjusted performance over the 5-year period. The low correlation between DANGCEM and the banking stocks (GTCO & ZENITHBANK) suggests that a diversified portfolio combining Industrial Goods and Financial Services stocks could offer better risk management in the Nigerian market.
+**DANGCEM** demonstrated superior risk-adjusted performance over the 5-year period. The low correlation between DANGCEM and the banking stocks (**GTCO** & **ZENITHBANK**) suggests that a diversified portfolio combining Industrial Goods and Financial Services stocks could offer better risk management in the Nigerian market.
 
 ---
 
