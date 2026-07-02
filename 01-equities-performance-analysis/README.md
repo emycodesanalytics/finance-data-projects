@@ -36,7 +36,6 @@ To evaluate and compare the risk-return profiles of these equities using various
 
 ## Technologies Used
 - Python, pandas, NumPy, Matplotlib, Seaborn
-- scikit-learn (for similarity calculations)
 
 ## How to Run
 1. Navigate to the [`notebooks/`](./notebooks/) folder
