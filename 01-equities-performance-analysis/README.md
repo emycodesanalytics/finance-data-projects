@@ -37,10 +37,9 @@ To evaluate and compare the risk-return profiles of these equities using various
 ## Technologies Used
 - Python, pandas, NumPy, Matplotlib, Seaborn
 
-## How to Run
-1. Navigate to the [`notebooks/`](./notebooks/) folder
-2. Open [`equities_performance_analysis.ipynb`](./notebooks/equities_performance_analysis.ipynb)
-3. Run the cells sequentially
+## Full Analysis
+For the complete breakdown, code, detailed analysis, visualizations, and findings, please see the full Jupyter Notebook:  
+[`equities_performance_analysis.ipynb`](./notebooks/equities_performance_analysis.ipynb) or the html version
 
 All generated charts have been exported as PNG files into the [`outputs/`](./outputs/) folder.
 
