@@ -29,6 +29,9 @@ Exploring the relationship between alternative data (Google Trends, social media
 
 ---
 
+## Other Works
+- [Data Analytics Portfolio](https://github.com/emycodesanalytics/Data-Analytics-Portfolio)
+
 ## Technologies & Tools
 - **Core**: Python, pandas, NumPy, Matplotlib, Seaborn
 - **Analysis**: scikit-learn (similarity measures), SciPy
