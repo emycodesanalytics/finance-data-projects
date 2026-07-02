@@ -2,30 +2,37 @@
 
 A collection of personal applied projects in financial data analysis, risk assessment, and quantitative methods. Focused on practical implementation of financial engineering concepts using real market data.
 
-## Projects
+## Completed Projects
 
 ### 01. Equities Performance Analysis
-Comparative performance analysis of major stocks using key financial metrics (returns, volatility, risk-adjusted performance, correlation, and similarity measures).
+Comparative performance analysis of three major Nigerian stocks — DANGCEM (Dangote Cement Plc), GTCO (Guaranty Trust Holding Company Plc), and ZENITHBANK (Zenith Bank Plc) — over a 5-year period.
 
-**Technologies**: Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn
+**Key Focus**: Risk-return evaluation, volatility analysis, Sharpe Ratio, distribution characteristics, and pairwise similarity measures (Euclidean, Manhattan, and Cosine).
 
-[View Project →](./01-equities-performance-analysis/)
+[View Project](./01-equities-performance-analysis/)
 
 ---
 
 ### 02. Financial Data Cleaning Pipeline
+**In Progress**
+
 Reusable pipeline for cleaning and preparing messy financial datasets (handling missing values, outliers, irregular timestamps, etc.).
 
-[View Project →](./02-financial-data-cleaning-pipeline/)
+[View Project](./02-financial-data-cleaning-pipeline/)
 
 ---
 
 ### 03. Alternative Data & Sentiment Analysis
+**In Progress**
+
 Exploring the use of alternative data sources (Google Trends, social media, etc.) for market sentiment and its relationship with asset prices.
 
-[View Project →](./03-alternative-data-sentiment/)
+[View Project](./03-alternative-data-sentiment-analysis/)
 
 ---
+
+## Other Works
+- [Data Analytics Portfolio](https://github.com/emycodesanalytics/Data-Analytics-Portfolio)
 
 ## Technologies & Tools
 - Python (pandas, NumPy, Matplotlib, Seaborn, scikit-learn)
@@ -38,14 +45,12 @@ To build practical, production-oriented skills in financial data analysis and de
 
 ---
 
-**Status**: In active development (Private until June/July 2026)
-
----
-
 **Connect with me:**
 
 - GitHub: [@emycodesanalytics](https://github.com/emycodesanalytics)
-- LinkedIn: [Olamide Emmanuel Ogundare](https://www.linkedin.com/in/olamide-emmanuel-ogundare/)  
+- LinkedIn: [Olamide Emmanuel Ogundare](https://www.linkedin.com/in/olamide-emmanuel-ogundare/)
 - Twitter/X: [@emycodes](https://x.com/emycodes)
 
-**Last Updated:** June 30, 2026
+---
+
+**Last Updated:** 01 July 2026
