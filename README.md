@@ -1,56 +1,52 @@
 # Finance Data Projects
 
-A collection of personal applied projects in financial data analysis, risk assessment, and quantitative methods. Focused on practical implementation of financial engineering concepts using real market data.
+A collection of **personal applied projects** in financial data analysis and quantitative methods. These projects demonstrate the practical application of Python, pandas, and financial engineering concepts to real-world market data, with a focus on the Nigerian equities market.
 
-## Completed Projects
+## Projects
 
 ### 01. Equities Performance Analysis
-Comparative performance analysis of three major Nigerian stocks — DANGCEM (Dangote Cement Plc), GTCO (Guaranty Trust Holding Company Plc), and ZENITHBANK (Zenith Bank Plc) — over a 5-year period.
+Comparative risk-return analysis of three major Nigerian stocks — **DANGCEM**, **GTCO**, and **ZENITHBANK** — over a 5-year period (2021–2026).
 
-**Key Focus**: Risk-return evaluation, volatility analysis, Sharpe Ratio, distribution characteristics, and pairwise similarity measures (Euclidean, Manhattan, and Cosine).
+**Key Highlights**:
+- DANGCEM emerged as the strongest performer on a risk-adjusted basis (highest Sharpe Ratio).
+- Low similarity between DANGCEM and the banking stocks, indicating strong diversification potential.
 
-[View Project](./01-equities-performance-analysis/)
-
----
-
-### 02. Financial Data Cleaning Pipeline
-**In Progress**
-
-Reusable pipeline for cleaning and preparing messy financial datasets (handling missing values, outliers, irregular timestamps, etc.).
-
-[View Project](./02-financial-data-cleaning-pipeline/)
+[View Project →](./01-equities-performance-analysis/)
 
 ---
 
-### 03. Alternative Data & Sentiment Analysis
-**In Progress**
+### 02. Financial Data Cleaning Pipeline *(In Progress)*
+Reusable pipeline for cleaning and preparing messy financial datasets commonly encountered in emerging markets.
 
-Exploring the use of alternative data sources (Google Trends, social media, etc.) for market sentiment and its relationship with asset prices.
-
-[View Project](./03-alternative-data-sentiment-analysis/)
+[View Project →](./02-financial-data-cleaning-pipeline/)
 
 ---
 
-## Other Works
-- [Data Analytics Portfolio](https://github.com/emycodesanalytics/Data-Analytics-Portfolio)
+### 03. Alternative Data & Sentiment Analysis *(Planned)*
+Exploring the relationship between alternative data (Google Trends, social media sentiment) and stock price movements.
+
+[View Project →](./03-alternative-data-sentiment/)
+
+---
 
 ## Technologies & Tools
-- Python (pandas, NumPy, Matplotlib, Seaborn, scikit-learn)
-- Jupyter Notebook
-- Git & GitHub
-- Financial data APIs
+- **Core**: Python, pandas, NumPy, Matplotlib, Seaborn
+- **Analysis**: scikit-learn (similarity measures), SciPy
+- **Environment**: Jupyter Notebook
+- **Version Control**: Git & GitHub
 
 ## Goal
-To build practical, production-oriented skills in financial data analysis and demonstrate the ability to apply quantitative methods to real-world problems.
+To build and showcase **practical, job-ready skills** in financial data analysis, risk assessment, and quantitative research by working with real African market data.
 
 ---
 
-**Connect with me:**
+**Status**: In active development (Private Repository)
 
+**Last Updated**: July 02, 2026
+
+---
+
+**Connect with me**  
+- LinkedIn: [Olamide Emmanuel Ogundare](https://linkedin.com/in/emycodesanalytics)  
 - GitHub: [@emycodesanalytics](https://github.com/emycodesanalytics)
-- LinkedIn: [Olamide Emmanuel Ogundare](https://www.linkedin.com/in/olamide-emmanuel-ogundare/)
 - Twitter/X: [@emycodes](https://x.com/emycodes)
-
----
-
-**Last Updated:** 01 July 2026
