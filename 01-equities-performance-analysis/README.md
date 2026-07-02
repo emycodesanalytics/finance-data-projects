@@ -39,7 +39,7 @@ To evaluate and compare the risk-return profiles of these equities using various
 
 ## Full Analysis
 For the complete breakdown, code, detailed analysis, visualizations, and findings, please see the full Jupyter Notebook:  
-[`equities_performance_analysis.ipynb`](./notebooks/equities_performance_analysis.ipynb) or the html version
+[`equities_performance_analysis.ipynb`](./notebooks/equities_performance_analysis.ipynb)
 
 All generated charts have been exported as PNG files into the [`outputs/`](./outputs/) folder.
 
