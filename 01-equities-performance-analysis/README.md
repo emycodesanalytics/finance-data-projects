@@ -1,55 +1,55 @@
-# 01. Nigerian Equities Performance Analysis
+# 01. Equities Performance Analysis
 
-Comparative performance analysis of three major Nigerian stocks — **DANGCEM**, **GTCO**, and **ZENITHBANK** — over a **5-year period** (June 2021 – June 2026).
+Comparative performance analysis of three major Nigerian stocks — DANGCEM, GTCO, and ZENITHBANK — over a 5-year period (approximately June 2021 to June 2026).
 
 ## Objective
-To evaluate and compare the risk-return profiles of these equities, assess their diversification potential, and identify which stock offered the best risk-adjusted performance during the period.
+To evaluate and compare the risk-return profiles of these equities using various financial metrics, assess their diversification potential through similarity measures, and determine which stock offered the best risk-adjusted performance.
 
 ## Dataset
 - Source: Investing.com (daily closing prices)
-- Time Period: Approximately 5 years
-- Stocks: DANGCEM (Industrial Goods), GTCO & ZENITHBANK (Financial Services)
+- Time Period: June 2021 – June 2026
+- Stocks: DANGCEM (Industrial Goods sector), GTCO and ZENITHBANK (Financial Services sector)
 
 ## Key Analyses Performed
-- Data cleaning and preprocessing
-- Return calculations (daily and annualized geometric returns)
-- Risk metrics (volatility, semi-variance, high-low range)
-- Risk-adjusted performance (Sharpe Ratio)
-- Distribution analysis (skewness and normality tests)
-- Pairwise similarity measures (Euclidean, Manhattan, and Cosine similarity)
-- Visualizations (normalized prices, correlation heatmap, return distributions, rolling volatility)
+- Data loading, cleaning and preprocessing
+- Calculation of daily returns and annualized geometric returns
+- Risk metrics including standard deviation, moving average volatility, semi-variance, and high-low range
+- Risk-adjusted performance using Sharpe Ratio
+- Distribution analysis (skewness and normality testing)
+- Pairwise similarity measures (Euclidean Distance, Manhattan Distance, and Cosine Similarity)
+- Visualizations including normalized price trends, correlation heatmap, return distributions with pairplots and regression lines, and rolling volatility charts
 
 ## Key Findings
 
-**Performance Summary**
-- **DANGCEM** stood out as the strongest performer on a risk-adjusted basis, delivering competitive returns with the **lowest volatility** and the **highest Sharpe Ratio**.
-- **ZENITHBANK** showed similar returns to DANGCEM but with noticeably higher volatility.
-- **GTCO** recorded the lowest returns among the three with moderate volatility.
+**Performance Summary**  
+DANGCEM demonstrated the strongest risk-adjusted performance with competitive returns and the lowest volatility among the three stocks, resulting in the highest Sharpe Ratio. ZENITHBANK delivered similar returns to DANGCEM but carried higher volatility, while GTCO recorded the lowest returns with moderate volatility.
 
-**Similarity & Diversification**
-- ZENITHBANK and GTCO (both from the Financial Services sector) exhibited **moderate similarity** in their return patterns (Cosine Similarity ≈ 0.563).
-- DANGCEM showed **very low similarity** with both banking stocks (Cosine Similarity < 0.07), indicating strong diversification potential when combined with banking stocks.
+**Similarity and Diversification**  
+ZENITHBANK and GTCO showed moderate similarity in their return patterns (highest Cosine Similarity of 0.563). DANGCEM exhibited very low similarity with both banking stocks. This suggests strong diversification benefits when combining DANGCEM with banking sector stocks.
 
-**Distribution Characteristics**
-- All three stocks displayed **negative skewness**, suggesting a higher likelihood of extreme negative returns.
-- Returns are **not normally distributed** (Jarque-Bera p-value = 0.0 for all stocks), which is typical in equity markets.
+**Distribution Characteristics**  
+All three stocks displayed negative skewness, indicating a higher likelihood of extreme negative returns. Returns were not normally distributed across the stocks.
 
 ## Technologies Used
 - Python, pandas, NumPy, Matplotlib, Seaborn
+- scikit-learn (for similarity calculations)
 
 ## How to Run
-1. Open `notebooks/equities_performance_analysis.ipynb`
-2. Run the cells sequentially
+1. Navigate to the `notebooks/` folder
+2. Open `equities_performance_analysis.ipynb`
+3. Run the cells sequentially
+
+All generated charts have been exported as PNG files into the `outputs/` folder.
 
 ## Conclusion
-DANGCEM demonstrated superior risk-adjusted performance over the 5-year period. The low correlation between DANGCEM and the banking stocks (GTCO & ZENITHBANK) suggests that a diversified portfolio combining Industrial Goods and Financial Services stocks could offer better risk management in the Nigerian market.
+Over the 5-year period, DANGCEM offered the best balance of return and risk. The low similarity between DANGCEM and the two banking stocks highlights meaningful diversification opportunities in the Nigerian equities market.
 
 ---
 
 **Connect with me:**
 
 - GitHub: [@emycodesanalytics](https://github.com/emycodesanalytics)
-- LinkedIn: [Olamide Emmanuel Ogundare](https://www.linkedin.com/in/olamide-emmanuel-ogundare/)  
+- LinkedIn: [Olamide Emmanuel Ogundare](https://www.linkedin.com/in/olamide-emmanuel-ogundare/)
 - Twitter/X: [@emycodes](https://x.com/emycodes)
 
-**Last Updated:** June 30, 2026
+**Last Updated:** 01 July 2026
