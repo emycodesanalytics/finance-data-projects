@@ -26,11 +26,12 @@ To evaluate and compare the risk-return profiles of these equities using various
 | DANGCEM     | 0.0850            | 0.001248     | 0.02106       | 0.0593       | 0.000236     |
 | GTCO        | 0.0844            | 0.001135     | 0.02203       | 0.0515       | 0.000414     |
 | ZENITHBANK  | 0.0848            | 0.001243     | 0.02277       | 0.0546       | 0.000474     |
+
 [Download Summary Statistics](./outputs/summary_statistics.xlsx)
 
-**Explanation**:  
-- **Annualized Return** shows the compounded yearly return.  
-- **Sharpe Ratio** measures return per unit of risk (higher is better).  
+**Explanation**:
+- **Annualized Return** shows the compounded yearly return.
+- **Sharpe Ratio** measures return per unit of risk (higher is better).
 - **Std Deviation** measures volatility (lower is better for same return).
 
 ## Pairwise Similarity Measures
@@ -40,15 +41,15 @@ To evaluate and compare the risk-return profiles of these equities using various
 | DANGCEM - ZENITHBANK  | 1.0532             | 22.2155            | 0.0664            |
 | DANGCEM - GTCO        | 1.0527             | 21.7883            | 0.0336            |
 | ZENITHBANK - GTCO     | 0.7362             | 17.3105            | 0.5630            |
+
 [Download Similarity Measures](./outputs/similarity_measures.xlsx)
 
-**Explanation**:  
-- Lower Euclidean and Manhattan distances indicate more similar return behavior.  
-- Higher Cosine Similarity (closer to 1) means the stocks move more in the same direction.  
+**Explanation**:
+- Lower Euclidean and Manhattan distances indicate more similar return behavior.
+- Higher Cosine Similarity (closer to 1) means the stocks move more in the same direction.
 - ZENITHBANK and GTCO are more similar to each other, while DANGCEM behaves quite differently.
 
 ## Key Findings
-
 **Performance Summary**
 - **DANGCEM** demonstrated the strongest risk-adjusted performance with competitive returns and the **lowest volatility** among the three stocks, resulting in the **highest Sharpe Ratio**.
 - **ZENITHBANK** delivered similar returns to **DANGCEM** but carried higher volatility, while
@@ -66,13 +67,13 @@ To evaluate and compare the risk-return profiles of these equities using various
 - Python, pandas, NumPy, Matplotlib, Seaborn
 
 ## Full Analysis
-For the complete breakdown, code, detailed analysis, visualizations, and findings, please see the full Jupyter Notebook:  
+For the complete breakdown, code, detailed analysis, visualizations, and findings, please see the full Jupyter Notebook:
 [`equities_performance_analysis.ipynb`](./notebooks/equities_performance_analysis.ipynb)
 
 All generated charts have been exported as PNG files into the [`outputs/`](./outputs/) folder.
 
 ## Conclusion
-**DANGCEM** demonstrated superior risk-adjusted performance over the 5-year period. The low correlation between DANGCEM and the banking stocks (**GTCO** & **ZENITHBANK**) suggests that a diversified portfolio combining Industrial Goods and Financial Services stocks could offer better risk management in the Nigerian market.
+**DANGCEM** demonstrated superior risk-adjusted performance over the 5-year period. The low correlation between DANGCEM and the banking stocks (**GTCO** & **ZENITHBANK**) suggests that a diversified portfolio combining Industrial Goods and Financial Services stocks could offer better risk management in the Nigerian market. This kind of analysis helps investors and portfolio managers make more informed decisions when constructing portfolios, balancing return potential with risk exposure in emerging markets like Nigeria.
 
 ---
 
@@ -84,4 +85,4 @@ All generated charts have been exported as PNG files into the [`outputs/`](./out
 
 ---
 
-**Last Updated:** July 04, 2026
+**Last Updated:** 04 July 2026
