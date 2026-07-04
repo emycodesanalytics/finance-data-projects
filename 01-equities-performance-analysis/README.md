@@ -40,6 +40,7 @@ To evaluate and compare the risk-return profiles of these equities using various
 | DANGCEM - ZENITHBANK  | 1.0532             | 22.2155            | 0.0664            |
 | DANGCEM - GTCO        | 1.0527             | 21.7883            | 0.0336            |
 | ZENITHBANK - GTCO     | 0.7362             | 17.3105            | 0.5630            |
+[Download Similarity Measures](./outputs/similarity_measures.xlsx)
 
 **Explanation**:  
 - Lower Euclidean and Manhattan distances indicate more similar return behavior.  
@@ -83,4 +84,4 @@ All generated charts have been exported as PNG files into the [`outputs/`](./out
 
 ---
 
-**Last Updated:** July 02, 2026
+**Last Updated:** July 04, 2026
