@@ -19,6 +19,33 @@ To evaluate and compare the risk-return profiles of these equities using various
 - Pairwise similarity measures (Euclidean Distance, Manhattan Distance, and Cosine Similarity)
 - Visualizations including normalized price trends, correlation heatmap, return distributions with pairplots and regression lines, and rolling volatility charts
 
+## Summary Statistics
+
+| Stock       | Annualized Return | Daily Return | Std Deviation | Sharpe Ratio | SemiVariance |
+|-------------|-------------------|--------------|---------------|--------------|--------------|
+| DANGCEM     | 0.0850            | 0.001248     | 0.02106       | 0.0593       | 0.000236     |
+| GTCO        | 0.0844            | 0.001135     | 0.02203       | 0.0515       | 0.000414     |
+| ZENITHBANK  | 0.0848            | 0.001243     | 0.02277       | 0.0546       | 0.000474     |
+[Download Summary Statistics](./outputs/summary_statistics.xlsx)
+
+**Explanation**:  
+- **Annualized Return** shows the compounded yearly return.  
+- **Sharpe Ratio** measures return per unit of risk (higher is better).  
+- **Std Deviation** measures volatility (lower is better for same return).
+
+## Pairwise Similarity Measures
+
+| Pair                  | Euclidean Distance | Manhattan Distance | Cosine Similarity |
+|-----------------------|--------------------|--------------------|-------------------|
+| DANGCEM - ZENITHBANK  | 1.0532             | 22.2155            | 0.0664            |
+| DANGCEM - GTCO        | 1.0527             | 21.7883            | 0.0336            |
+| ZENITHBANK - GTCO     | 0.7362             | 17.3105            | 0.5630            |
+
+**Explanation**:  
+- Lower Euclidean and Manhattan distances indicate more similar return behavior.  
+- Higher Cosine Similarity (closer to 1) means the stocks move more in the same direction.  
+- ZENITHBANK and GTCO are more similar to each other, while DANGCEM behaves quite differently.
+
 ## Key Findings
 
 **Performance Summary**
