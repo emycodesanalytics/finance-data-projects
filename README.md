@@ -22,8 +22,17 @@ Reusable pipeline for cleaning and preparing messy financial datasets commonly e
 
 ---
 
-### 03. Alternative Data & Sentiment Analysis *(Planned)*
-Exploring the relationship between alternative data (Google Trends, social media sentiment) and stock price movements.
+### 03. Alternative Data & Sentiment Analysis *(In Progress)*
+Analyzing public interest and sentiment around major Nigerian equities using **Search Volume Index (SVI)** from Google Trends, with plans to integrate news sentiment.
+
+**Focus**: Dangote Cement, GTCO, and Zenith Bank
+
+**Current Progress**:
+- Completed Google Trends (SVI) analysis for the three equities
+- Explored interest-over-time and related search queries
+- **Next**: Integrate Nigerian news sentiment and compare with price movements
+
+[View Project →](./03-alternative-data-sentiment-analysis/)
 
 [View Project →](./03-alternative-data-sentiment/)
 
