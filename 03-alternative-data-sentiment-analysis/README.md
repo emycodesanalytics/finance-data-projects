@@ -3,14 +3,12 @@
 **Status: In Progress**
 
 ## Planned Scope (In Progress)
-- Google Trends data collection and analysis
-- Sentiment analysis using TF-IDF and other techniques
-- Correlation between sentiment and equity performance
 
 - Analyze Search Volume Index (SVI) from Google Trends for Dangote Cement, GTCO, and Zenith Bank (Nigeria-focused).
 - Collect and clean Nigerian news headlines related to the three equities.
 - Apply sentiment analysis on the news data to generate sentiment scores using TF-IDF and other techniques
 - Compare SVI trends with news sentiment and explore relationships with stock performance.
+
 ## Overview
 
 This project applies **Search Volume Index (SVI)** from Google Trends as an alternative data source to analyze public interest in three major Nigerian equities and their relationship with stock price movements in the Nigerian market:
@@ -49,6 +47,7 @@ These patterns suggest that search data can serve as a useful proxy for public e
 ## Project Structure
 
 03-alternative-data-sentiment-analysis/
+
 ├── data/
 │   ├── raw/                 # Raw data pulled from Google Trends
 │   └── processed/           # Cleaned and transformed datasets
@@ -98,4 +97,4 @@ Aspiring Quantitative Analyst | MScFE Candidate (WorldQuant University)
 
 ---
 
-**Last Updated:** 01 July 2026
+**Last Updated:** 04 August 2026
