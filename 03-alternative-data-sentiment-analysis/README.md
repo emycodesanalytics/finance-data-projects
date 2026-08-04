@@ -47,7 +47,7 @@ These patterns suggest that search data can serve as a useful proxy for public e
 ## Project Structure
 
 03-alternative-data-sentiment-analysis/
-
+```
 ├── data/
 │   ├── raw/                 # Raw data pulled from Google Trends
 │   └── processed/           # Cleaned and transformed datasets
@@ -55,7 +55,7 @@ These patterns suggest that search data can serve as a useful proxy for public e
 │   └── equities_svi_analysis.ipynb
 ├── outputs/                 # CSV exports of top & rising queries, charts
 └── README.md
-
+```
 
 ---
 
