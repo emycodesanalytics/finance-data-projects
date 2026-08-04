@@ -52,7 +52,9 @@ These patterns suggest that search data can serve as a useful proxy for public e
 │   ├── raw/                 # Raw data pulled from Google Trends
 │   └── processed/           # Cleaned and transformed datasets
 ├── notebooks/
-│   └── equities_svi_analysis.ipynb
+│   ├── equities_svi_analysis.ipynb                # Raw data pulled from Google Trends
+|   ├── equities_svi_analysis.html
+│   └── equities_svi_analysis.pdf
 ├── outputs/                 # CSV exports of top & rising queries, charts
 └── README.md
 ```
