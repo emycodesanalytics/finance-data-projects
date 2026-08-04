@@ -88,6 +88,15 @@ These patterns suggest that search data can serve as a useful proxy for public e
 
 ---
 
+## Full Implementation
+
+For the complete code breakdown, analysis, and step-by-step implementation, please refer to the notebook in the `notebooks/` folder:
+
+- `equities_svi_analysis.ipynb` (Jupyter Notebook)
+- HTML and PDF versions are also available for easy viewing.
+
+---
+
 ## Author
 
 **Olamide Emmanuel Ogundare**  
