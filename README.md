@@ -15,14 +15,7 @@ Comparative risk-return analysis of three major Nigerian stocks — **DANGCEM**,
 
 ---
 
-### 02. Financial Data Cleaning Pipeline *(In Progress)*
-Reusable pipeline for cleaning and preparing messy financial datasets commonly encountered in emerging markets.
-
-[View Project →](./02-financial-data-cleaning-pipeline/)
-
----
-
-### 03. Alternative Data & Sentiment Analysis *(In Progress)*
+### 02. Alternative Data & Sentiment Analysis *(In Progress)*
 Analyzing public interest and sentiment around major Nigerian equities using **Search Volume Index (SVI)** from Google Trends, with plans to integrate news sentiment.
 
 **Focus**: Dangote Cement, GTCO, and Zenith Bank
